@@ -1,0 +1,7 @@
+account one
+yrelisss@rambler.ru
+12345678qwerty
+
+account two
+bot-spam@rambler.ru
+12345678qwerty
