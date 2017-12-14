@@ -4,7 +4,7 @@ import javax.mail.internet.*;
 
 public class Sending {
 
-    public void SendingWork(String to,String from,Properties props) throws MessagingException, InterruptedException
+    public void SendingMessage(String to,String from,Properties props) throws MessagingException, InterruptedException
     {
         for (int i = 1; i < 500; i++)
         {
