@@ -4,13 +4,13 @@ public class Main
 {
     public static void main(String args[]) throws Exception
     {
-        Setting set = new Setting();
+        Sending set = new Sending();
         String host = "mail.rambler.ru";
         String from = "bot-spam@rambler.ru";
         String to = "yrelisss@rambler.ru";
         Properties props = System.getProperties();
         props.put("mail.smtp.host", host);
-        set.SettingWork(to, from, props);
+        set.SendingWork(to, from, props);
     }
 }
 
