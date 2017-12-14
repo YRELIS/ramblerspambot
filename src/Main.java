@@ -10,7 +10,7 @@ public class Main
         String to = "yrelisss@rambler.ru";
         Properties props = System.getProperties();
         props.put("mail.smtp.host", host);
-        set.SendingWork(to, from, props);
+        set.SendingMessage(to, from, props);
     }
 }
 
