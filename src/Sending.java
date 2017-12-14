@@ -2,9 +2,9 @@ import java.util.Properties;
 import javax.mail.*;
 import javax.mail.internet.*;
 
-public class Setting {
+public class Sending {
 
-    public void SettingWork(String to,String from,Properties props) throws MessagingException, InterruptedException
+    public void SendingWork(String to,String from,Properties props) throws MessagingException, InterruptedException
     {
         for (int i = 1; i < 500; i++)
         {
